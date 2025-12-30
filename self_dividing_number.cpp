@@ -22,7 +22,7 @@ public:
                 {
                     int ld = temp%10;
                     // if(ld==0) break;
-                    if(ld==0 || i%ld!=0 )//|| ld==0)
+                    if(ld==0 || i%ld!=0 )//|| ld==0)//this cdn of zero should be write first as you can see
                     {
                         break;
                     }
