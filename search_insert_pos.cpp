@@ -2,7 +2,7 @@ class Solution {
 public:
     int searchInsert(vector<int>& nums, int target)
     {
-        int index = nums.size();
+        int index = nums.size();//as in the case that all elements in the array are smaller than the target
         int start = 0 , end = nums.size() - 1 , mid;
 
         while(start<=end)
@@ -17,7 +17,7 @@ public:
             {
                 start = mid + 1;
             }
-            else if(nums[mid]>target)
+            else if(nums[mid]>target)//it could be the potential ans
             {
                 index = mid;
                 end = mid - 1;
