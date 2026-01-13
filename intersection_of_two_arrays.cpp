@@ -6,7 +6,7 @@ public:
         int m = nums2.size();
 
         int freq[1001] = {0};//to track if an element has occurs or not
-        //to maintain the uniqueness of the ans array
+        //to maintain the uniqueness of the ans array 
         vector<int> ans;
 
         for(int i=0 ; i<n ; i++)
