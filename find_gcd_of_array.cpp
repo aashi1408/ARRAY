@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int findGCD(vector<int>& nums) 
+    int findGCD(vector<int>& nums)  
     {
         int n = nums.size();
         int sml = INT_MAX;
